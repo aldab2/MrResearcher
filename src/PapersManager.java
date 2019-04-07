@@ -1,6 +1,7 @@
+import java.util.*;
 
 public class PapersManager {
-	private Paper[] Papers;
+	private ArrayList<Paper> Papers;
 	public Note searchNotes(String keyWords) {
 		return null;
 	}
