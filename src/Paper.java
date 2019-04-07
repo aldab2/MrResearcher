@@ -2,7 +2,7 @@
 public class Paper {
 	private String name;
 	private Note[] notes;
-	private double rating
+	private double rating;
 	
 	private String author;
 	private String date;
