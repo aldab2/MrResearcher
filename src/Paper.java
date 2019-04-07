@@ -4,7 +4,6 @@ public class Paper {
 	private String name;
 	private ArrayList<Note> notes;
 	private double rating;
-
 	private String author;
 	private String date;
 	private String keywords;
