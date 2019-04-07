@@ -1,11 +1,5 @@
 package System;
 
-
-/**
- * @author YounesB
- * @version 1.0
- * @created 07-Apr-2019 3:52:23 PM
- */
 public class GUI {
 
 	private PaperBuilder paperBuilder;
