@@ -5,7 +5,7 @@ public class TestGitKraken {
 		
 		System.out.println("Hello World!");
 		 System.out.println("koko");
-        System.out.println("no");
+        System.out.println("Live everyday");
 	}
 	
 }
