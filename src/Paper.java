@@ -40,11 +40,11 @@ public class Paper {
 		this.name = name;
 	}
 
-	public Note[] getNotes() {
+	public ArrayList<Note> getNotes() {
 		return notes;
 	}
 
-	public void setNotes(Note[] notes) {
+	public void setNotes(ArrayList<Note> notes) {
 		this.notes = notes;
 	}
 
