@@ -4,7 +4,7 @@ public class PaperBuilder {
 	private Paper tmp;
 	private File file;
 	final static String PAPERS_DIRECTORY = "papers/";
-<<<<<<< HEAD
+
 
 	public static void main(String[] args) {
 		PaperBuilder builder = new PaperBuilder();
@@ -15,11 +15,11 @@ public class PaperBuilder {
 
 	public Paper buildPaper(File file) {
 		verifyFile();
-=======
+
 
 	public Paper buildPaper(File file) {
 		// verifyFile();
->>>>>>> master
+
 		saveFile();
 		RenameFile();
 
