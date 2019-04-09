@@ -13,8 +13,7 @@ public class PaperBuilder {
 
 	}
 
-	public Paper buildPaper(File file) {
-		verifyFile();
+	
 
 
 	public Paper buildPaper(File file) {
