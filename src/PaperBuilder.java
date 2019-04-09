@@ -6,14 +6,21 @@ public class PaperBuilder {
 	final static String PAPERS_DIRECTORY = "papers/";
 
 	public static void main(String[] args) {
+		PaperBuilder builder = new PaperBuilder();
+		File f = new File("test/p.pdf");
+		builder.buildPaper(f);
 
 	}
 
 	public Paper buildPaper(File file) {
+		verifyFile();
+		saveFile();
+		RenameFile();
+
 		return tmp;
 	}
 
-	private static boolean verifyFile(File file) {
+	private boolean verifyFile() {
 		System.out.println("Verfying File : " + file.getAbsolutePath() + "  " + file.exists());
 
 		String extension = "";

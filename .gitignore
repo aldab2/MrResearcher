@@ -5,3 +5,7 @@
 MrResearcher\.iml
 
 *.class
+
+\.DS_Store
+
+src/test/Icon
