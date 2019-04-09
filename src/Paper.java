@@ -8,6 +8,10 @@ public class Paper {
 	private String date;
 	private String keywords;
 
+	public static void main(String[] args) {
+		System.out.println("Fuck off");
+		
+	}
 	public String getAuthor() {
 		return author;
 	}
